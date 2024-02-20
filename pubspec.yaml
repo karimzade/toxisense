@@ -1,0 +1,36 @@
+name: toxisense
+description: poisonous livings detection.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  provider: ^6.1.1
+  video_player: ^2.2.13
+  record: ^5.0.4
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/google_logo.png
+    - assets/apple_logo.png
+    - assets/yunus.png
